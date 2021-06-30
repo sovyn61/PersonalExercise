@@ -18,6 +18,7 @@
  */
 
 
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Text;
@@ -28,7 +29,10 @@ public class ReverseInteger : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Debug.Log(Reverse(1534236469));
+        System.DateTime before = System.DateTime.Now;
+        int result = Reverse(-153423000);
+        Debug.Log(System.DateTime.Now - before);
+        Debug.Log(result);
     }
 
 
@@ -40,33 +44,41 @@ public class ReverseInteger : MonoBehaviour
 
     public int Reverse(int x)
     {
-        StringBuilder stringBuilder = new StringBuilder();
-        if (x < 0)
+        // 1.先处理数字，将末尾的0都去掉
+        while(true)
         {
-            stringBuilder.Append("-");
+            int remainder = x % 10;
+            if (remainder == 0)
+                x /= 10;
+            else
+                break;
+        }
+
+
+        // 2.预处理负数
+        bool isMinus = x < 0;
+        if (isMinus)
+        {
             x *= -1;
         }
 
+        // 3.字符串反转
         string temStr = x.ToString();
-        bool zero = true;
-        for (int i = temStr.Length - 1; i >= 0; --i)
-        {
-            if (zero && temStr[i].Equals("0"))
-                break;
+        char[] temArr = temStr.ToCharArray();
+        Array.Reverse(temArr);
 
-            if(zero) zero = false;
-
-            stringBuilder.Append(temStr[i]);
-        }
-
+        // 4.生成新的字符串，再转换为int
         int result;
-
-        try {
-            result = int.Parse(stringBuilder.ToString());
-        } catch {
+        try
+        {
+            result = int.Parse(new string(temArr));
+            if (isMinus)
+                result *= -1;
+        }
+        catch
+        {
             result = 0;
         }
-
         return result;
     }
 

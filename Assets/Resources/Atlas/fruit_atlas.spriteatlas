@@ -29,62 +29,11 @@ SpriteAtlas:
       enableRotation: 1
       enableTightPacking: 1
     variantMultiplier: 1
-    packables:
-    - {fileID: 102900000, guid: 47046fec86ada124690b2c7c302d2141, type: 3}
-    totalSpriteSurfaceArea: 291600
+    packables: []
+    totalSpriteSurfaceArea: 0
     bindAsDefault: 1
   m_MasterAtlas: {fileID: 0}
-  m_PackedSprites:
-  - {fileID: 21300000, guid: 5f818a70a60dc9e42b620e3b88384ac2, type: 3}
-  - {fileID: 21300000, guid: a84115b1f7e6b9c4bb02f3a79bff8698, type: 3}
-  - {fileID: 21300000, guid: d2c071c1c61c0cc4380f173b4f942a45, type: 3}
-  - {fileID: 21300000, guid: 3369f7224fcced0408062ec7a4484d83, type: 3}
-  - {fileID: 21300000, guid: 3af956d25561e5344af36445e15a37d1, type: 3}
-  - {fileID: 21300000, guid: 4b8afa3367238b64bbbca89e88efa21c, type: 3}
-  - {fileID: 21300000, guid: cfde0ef391310454eb4be2a912dce97f, type: 3}
-  - {fileID: 21300000, guid: 6c062954a63800b4e8c06c869d33271d, type: 3}
-  - {fileID: 21300000, guid: b1d72084c8a92a14aaee665c9aa10037, type: 3}
-  - {fileID: 21300000, guid: bf65755591063ac4d91acee4c9f43c98, type: 3}
-  - {fileID: 21300000, guid: fd5cec95288caf44e9beea4e772a2f88, type: 3}
-  - {fileID: 21300000, guid: c07472361387ba84c8d9263f850fffbc, type: 3}
-  - {fileID: 21300000, guid: d3369c9668d87c54cab62ed5f8524b25, type: 3}
-  - {fileID: 21300000, guid: 8e0210b6817b7594e814359e76163e94, type: 3}
-  - {fileID: 21300000, guid: fbe6ea673d96b15489baad01b113c761, type: 3}
-  - {fileID: 21300000, guid: 3526b39849fe80f4a83ce92d4fe6e685, type: 3}
-  - {fileID: 21300000, guid: 5982bdb923f845f43b15ba8942e2b9d9, type: 3}
-  - {fileID: 21300000, guid: 4092d7bbffa662d4eb7388072a0931fd, type: 3}
-  - {fileID: 21300000, guid: 42bded2c2c70ca747ae6aa826871b9c7, type: 3}
-  - {fileID: 21300000, guid: 13f22d5c4064a594a9bf0d88c70299d1, type: 3}
-  - {fileID: 21300000, guid: b131863d246424647b92b37831b64dd9, type: 3}
-  - {fileID: 21300000, guid: 45fc5a5da6f3cb445bf88841e02bc65f, type: 3}
-  - {fileID: 21300000, guid: 4547ecfd62c32fb46912733d49e37bde, type: 3}
-  - {fileID: 21300000, guid: ace31d1eeea1cba48999ee7add3d02db, type: 3}
-  - {fileID: 21300000, guid: b3cd04fe50c408e4cb9af81025502678, type: 3}
-  m_PackedSpriteNamesToIndex:
-  - 103
-  - 110
-  - 209
-  - 302
-  - 202
-  - 104
-  - 105
-  - 303
-  - 301
-  - 207
-  - 101
-  - 203
-  - 102
-  - 206
-  - 204
-  - 111
-  - 112
-  - 106
-  - 304
-  - 201
-  - 108
-  - 208
-  - 205
-  - 109
-  - 107
+  m_PackedSprites: []
+  m_PackedSpriteNamesToIndex: []
   m_Tag: fruit_atlas
   m_IsVariant: 0
