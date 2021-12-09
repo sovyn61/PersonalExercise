@@ -5,13 +5,15 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
-    path: Assets/Suction/SuctionDemoScene.unity
-    guid: 0a92c20e8916abc43bfdea3b0b19d4bb
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 0
     path: Assets/Demo01/Scenes/Paint&Collider2D/Paint&Collider.unity
     guid: 5f17865060ef3a845bb78f7358953a85
   - enabled: 0
-    path: Assets/SliceDemo/SliceDemoScene.unity
-    guid: ea932494271e50941bedf12a1062b821
-  m_configObjects: {}
+    path: 
+    guid: 00000000000000000000000000000000
+  m_configObjects:
+    com.unity.addressableassets: {fileID: 11400000, guid: cad9ac5dd077f3945b79a043d1b4bcda,
+      type: 2}

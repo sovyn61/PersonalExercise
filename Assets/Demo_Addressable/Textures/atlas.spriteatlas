@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: atlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 252d0bf58aff1f34c89cc6608d792b2c, type: 3}
+    totalSpriteSurfaceArea: 356606
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 751c8b60fddeb824dadc715b8e2573a9, type: 3}
+  - {fileID: 21300000, guid: e3fe43706311fec4b9c3689a9e2f9871, type: 3}
+  - {fileID: 21300000, guid: 0464d9317d0024b4e9ae4e211454e4a6, type: 3}
+  - {fileID: 21300000, guid: fd5397e2d3cbad24691fc7e254e9e0e1, type: 3}
+  - {fileID: 21300000, guid: aafea893fb11f9f4ab9dc1fcbc566892, type: 3}
+  - {fileID: 21300000, guid: d27f09f305583ff42ad6d534edbfe68d, type: 3}
+  - {fileID: 21300000, guid: bc0aa734b0417574d96b9d8d20656ffc, type: 3}
+  - {fileID: 21300000, guid: fd6d45750487315459a4d66e00b2e8ff, type: 3}
+  - {fileID: 21300000, guid: 33ece5c6d125ef74291dc777b6c5db92, type: 3}
+  - {fileID: 21300000, guid: 1808da074fe839242973edaddda3b0d3, type: 3}
+  - {fileID: 21300000, guid: 0f247ce73d705a447b7432bea1e80fb3, type: 3}
+  - {fileID: 21300000, guid: d8467fb896d34144798481e8917afdfd, type: 3}
+  - {fileID: 21300000, guid: e4c99049281eff24d8bc23ab61f5966f, type: 3}
+  - {fileID: 21300000, guid: ed5b5249259c47b44b5370faad526d3d, type: 3}
+  - {fileID: 21300000, guid: 2e6523993e8e4a543ad39159c5392fa2, type: 3}
+  - {fileID: 21300000, guid: 9292ca2a8fd218146b1dfe81ce41261f, type: 3}
+  - {fileID: 21300000, guid: cab0718bad6060e4090eccda3f0b4b2b, type: 3}
+  - {fileID: 21300000, guid: bf35758bc1dfd9e4ebbf629cc2d3f478, type: 3}
+  - {fileID: 21300000, guid: 632ded3c0ecdda34885a78bcc95e60ec, type: 3}
+  - {fileID: 21300000, guid: 1f5da1ad497dbe0459dba4b2f45024ab, type: 3}
+  - {fileID: 21300000, guid: 70d550de5ce20134cac2bb4083f71cc7, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - UpperBg
+  - img_icon_cache_ad_2
+  - AttractCustomersAd
+  - img_icon_cache_ad_1
+  - BottomBtn
+  - AttractCustomsProgressBg
+  - img_icon_cache_ad_4
+  - img_icon_cache_ad_3
+  - LittleRedTip
+  - DailyTask
+  - img_txt_doublerewards
+  - ManageIcon
+  - img_txt_guide
+  - img_icon_cache_ad_5
+  - GoOnBtn
+  - img_txt_upgrade
+  - bg_sign_tips
+  - BBQSignIn
+  - AutoServeIcon
+  - AttractCustomsBtn
+  - AttractCustomsProgress
+  m_Tag: atlas
+  m_IsVariant: 0
