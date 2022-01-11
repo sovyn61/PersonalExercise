@@ -37,6 +37,7 @@ MonoBehaviour:
   m_GroupAssets:
   - {fileID: 11400000, guid: 31842e6d981087242afa3892130a3fe4, type: 2}
   - {fileID: 11400000, guid: 105b58df365b2904388263cdc68e13ff, type: 2}
+  - {fileID: 11400000, guid: e864c56a307e1a448b404099f224a691, type: 2}
   m_BuildSettings:
     m_CompileScriptsInVirtualMode: 0
     m_CleanupStreamingAssetsAfterBuilds: 1
@@ -79,6 +80,7 @@ MonoBehaviour:
     m_LabelNames:
     - default
     - panel
+    - texture
   m_SchemaTemplates: []
   m_GroupTemplateObjects:
   - {fileID: 11400000, guid: 177710eca34b14d4396b27bd829b97b7, type: 2}

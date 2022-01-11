@@ -18,7 +18,7 @@ MonoBehaviour:
   m_GUID: 288ca71bddd1de74284c307f26b074bd
   m_SerializeEntries:
   - m_GUID: 876e09ddd3dabdd4c8b14159cda298ed
-    m_Address: Assets/Demo_Addressable/Profebs/panel_one.prefab
+    m_Address: panel_one
     m_ReadOnly: 0
     m_SerializedLabels:
     - panel

@@ -1,0 +1,20 @@
+
+ScratchCardGuide.png
+size: 291,291
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Resource/guideguangquan
+  rotate: false
+  xy: 2, 224
+  size: 287, 65
+  orig: 295, 68
+  offset: 6, 2
+  index: -1
+Resource/guidehand
+  rotate: true
+  xy: 2, 75
+  size: 147, 189
+  orig: 147, 189
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Textures
+  m_EditorClassIdentifier: 
+  m_GroupName: Textures
+  m_Data:
+    m_SerializedData: []
+  m_GUID: fd355cbd1da41f943bd1e2b0722dab2c
+  m_SerializeEntries:
+  - m_GUID: 632ded3c0ecdda34885a78bcc95e60ec
+    m_Address: icon_clock
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - texture
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: c2f971f2832fefa46b295d27b67b5dd6, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 0c941503b04ce19439fd1dc0ec533001, type: 2}
